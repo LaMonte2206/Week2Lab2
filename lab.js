@@ -30,6 +30,7 @@
      * up each item in the array and return the total value as the accumulator
      */
     function iterator(item, accumulator) {
+        var copyArr =   
 
     }
 var lab = {
@@ -47,6 +48,7 @@ var lab = {
          * Objective: multiply each number in the array by 2 and return the modified array
          */
         foreach: function(arg) {
+            return arg * 2;
 
         },
         /**
@@ -55,6 +57,7 @@ var lab = {
          * Objective: multiple each number in the array by 2 and return the new array
          */
         map: function(arg) {
+            return arg * 2;
 
         },
         /**
@@ -63,6 +66,7 @@ var lab = {
          * Objective: return array of values that are > 30
          */
         filter: function(arg, min) {
+            return arg < 30;
 
         },
         /**
@@ -70,6 +74,7 @@ var lab = {
          * this means the array does not contain any items within it that themselves an array
          */
         concatAll: function(arg) {
+            return arg == arg;
 
         },
         /**
@@ -80,6 +85,10 @@ var lab = {
          * Objective: return the sum of all items in the array
          */
         reduce: function(list, iterator, accumulator) {
+            return list;
+            return iterator;
+            return accumulator;
+            
 
         },
 
@@ -91,6 +100,8 @@ var lab = {
          * Objective: iterate over the object and return true if the property: 'propertyChecked' is on the object
          */
         hasOwnProperty: function(arg, propertyChecked) {
+            return arg;
+            return propertyChecked;
 
         },
         /**
@@ -98,6 +109,7 @@ var lab = {
          *of the properties
          */
         objKeys: function(arg) {
+            return arg;
 
         },
         /**
@@ -105,6 +117,7 @@ var lab = {
          * in the object by 2, and then return the modified obj
          */
         forInObj: function(arg) {
+            return arg * 2;
 
         },
         /**
@@ -114,6 +127,7 @@ var lab = {
          * greater than min
          */
         remove: function(arg, min) {
+            return arg
 
         }
 }
